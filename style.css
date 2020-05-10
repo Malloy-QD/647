@@ -1,0 +1,90 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li {
+  float: left;
+  width: 20%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li i{
+
+}
+
+li i:hover {
+  background-color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+.topnav{
+  float: right;
+  width: 15%;
+}
+
+/*Student Style*/
+.addStudent {
+  display: none;
+  text-align: center;
+  text-align-last: center;
+  vertical-align: middle;
+}
+
+.viewStudent {
+  display: none;
+}
+
+.deleteStudent {
+  display: none;
+}
+
+/*Librarian Style*/
+.addLibrarian {
+  display: none;
+}
+
+.viewLibrarian {
+  display: none;
+}
+
+.deleteLibrarian {
+  display: none;
+}
+
+/*Book Style*/
+.addBook {
+  display: none;
+}
+
+.viewBook {
+  display: none;
+}
+
+.deleteBook {
+  display: none;
+}
+
+#testQ {
+  display: none;
+}
